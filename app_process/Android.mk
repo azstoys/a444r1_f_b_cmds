@@ -9,9 +9,9 @@ LOCAL_SHARED_LIBRARIES := \
 	libutils \
 	liblog \
 	libbinder \
-	libandroid_runtime
+	libandroid_runtimeaz
 
-LOCAL_MODULE:= app_process
+LOCAL_MODULE:= azapp
 
 include $(BUILD_EXECUTABLE)
 
@@ -25,6 +25,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES:= \
 	app_main.cpp
 
+### Don't touch this right now...
 LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	libutils \
